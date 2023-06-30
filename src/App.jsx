@@ -2,6 +2,7 @@ import Ways from "./services"
 import { useEffect } from "react";
 import { createContext } from "react"
 import { useState } from "react";
+import FinalizarCompra from "./pages/FinalizarCompra";
 
 export const AuthContext = createContext(null);
 
@@ -19,9 +20,7 @@ const App = () => {
 
   return (
     <>
-      <AuthContext.Provider value={{isLoggeg, setIsLoggeg}}>
-        <Ways />
-      </AuthContext.Provider>
+      <FinalizarCompra></FinalizarCompra>
     </>
   )
 }
