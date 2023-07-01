@@ -79,43 +79,45 @@ const FinalizarCompra = () => {
             <button> Realizar Pagamento</button>
           </div>
         </div>
-      </div>
-      <div className="direita"></div>
-      <div className="resumo">
-        <h2>RESUMO</h2>
-        <div className="borda2"></div>
-        <div className="img">
-          <div className="image">
-            <img
-              src="src/pages/FinalizarCompra/img/Group 53617 (1).png"
-              alt=""
-            />
-          </div>
-          <div className="info-img">
-            <h4>Tênis Nike Revolution 6 Nexr Nature Masculino</h4>
-          </div>
+      
+        <div className="direita">
+        <div className="resumo">
+            <h2>RESUMO</h2>
+            <div className="borda2"></div>
+            <div className="img">
+            <div className="image">
+                <img
+                src="src/pages/FinalizarCompra/img/Group 53617 (1).png"
+                alt=""
+                />
+            </div>
+            <div className="info-img">
+                <h4>Tênis Nike Revolution 6 Nexr Nature Masculino</h4>
+            </div>
+            </div>
+            <div className="borda2"></div>
+            <div className="s">
+            <p>Subtotal:</p>
+            <h6>R$ 219,00</h6>
+            </div>
+            <div className="f">
+            <p>Frete:</p>
+            <h6>R$ 0,00</h6>
+            </div>
+            <div className="d">
+            <p>Desconto:</p>
+            <h6>R$ 30,00</h6>
+            </div>
+            <div className="fundo">
+            <div className="total-resumo">
+                <h2>Total</h2>
+                <p>R$ 219,00</p>
+            </div>
+            <p id="p">ou 10x de R$ 21,00 sem juros</p>
+            </div>
+            <button>Realizar Pagamento</button>
         </div>
-        <div className="borda2"></div>
-        <div className="s">
-          <p>Subtotal:</p>
-          <h6>R$ 219,00</h6>
         </div>
-        <div className="f">
-          <p>Frete:</p>
-          <h6>R$ 0,00</h6>
-        </div>
-        <div className="d">
-          <p>Desconto:</p>
-          <h6>R$ 30,00</h6>
-        </div>
-        <div className="fundo">
-          <div className="total-resumo">
-            <h2>Total</h2>
-            <p>R$ 219,00</p>
-          </div>
-          <p id="p">ou 10x de R$ 21,00 sem juros</p>
-        </div>
-        <button>Realizar Pagamento</button>
       </div>
     </>
   );

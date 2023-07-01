@@ -3,13 +3,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 0 100px;
+}
+.esquerda{
+    flex: 1;
+}
+.direita{
+    width: 450px;
+}
 body {
   background-color: #f9f8fe;
 }
 h1 {
-  position: relative;
-  left: 101px;
-  margin: 70px 0 40px 0;
+    padding: 70px 0 50px 100px;
 }
 h6 {
   position: relative;
@@ -22,7 +31,7 @@ label {
 }
 .borda {
   position: relative;
-  width: 690px;
+  width: 100%;
   border: 1px solid #ccc;
   margin: 20px 0 20px 0;
 }
@@ -30,9 +39,8 @@ label {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 100%;
   height: 538px;
-  left: 101px;
   justify-content: space-around;
   padding: 30px;
   margin-bottom: 20px;
@@ -40,7 +48,7 @@ label {
   background-color: #fff;
 }
 .info-pessoal input {
-  width: 690px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -50,9 +58,8 @@ label {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 100%;
   height: 647px;
-  left: 101px;
   justify-content: space-around;
   padding: 30px;
   background-color: #fff;
@@ -60,7 +67,7 @@ label {
   margin-bottom: 20px;
 }
 .info-entrega input {
-  width: 690px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -70,9 +77,8 @@ label {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 100%;
   height: 515px;
-  left: 101px;
   justify-content: space-around;
   /* align-items: flex-start; */
   padding: 30px;
@@ -100,7 +106,7 @@ label {
 }
 
 #nome-cart {
-  width: 690px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -108,7 +114,7 @@ label {
 }
 #Ncartao {
   display: block;
-  width: 332px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -116,7 +122,7 @@ label {
 }
 #Vcartao {
   display: flex;
-  width: 332px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -124,7 +130,7 @@ label {
 }
 #cvv {
   display: flex;
-  width: 332px;
+  width: 100%;
   height: 60px;
   border-radius: 8px;
   background-color: #f9f8fe;
@@ -132,9 +138,8 @@ label {
 }
 .finalizar-compra {
   position: relative;
-  width: 750px;
+  width: 100%;
   height: 248px;
-  left: 101px;
   padding: 30px;
   background-color: #fff;
   border-radius: 4px;
@@ -143,7 +148,7 @@ label {
 .finalizar-compra p {
   color: #8f8f8f;
   text-align: end;
-  width: 690px;
+  width: 100%;
   height: 22px;
   font-weight: 500;
   font-size: 12px;
@@ -160,7 +165,7 @@ label {
   letter-spacing: 1px;
 }
 .finalizar-compra button {
-  width: 690px;
+  width: 100%;
   height: 50px;
   border-radius: 8px;
   color: white;
@@ -170,38 +175,34 @@ label {
 }
 .borda2 {
   position: relative;
-  width: 408px;
+  width: 100%;
   border: 1px solid #ccc;
 }
 .resumo {
-  /* position: relative;
-    top: 318px;
-    left: 871px; */
   background-color: #fff;
   border-radius: 8px;
   position: relative;
   display: flex;
-  left: 101px;
-  width: 468px;
+  width: 100%;
   padding: 30px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
 }
 .s {
-  width: 408px;
+  width: 100%;
   height: 22px;
   display: flex;
   justify-content: space-between;
 }
 .f {
-  width: 408px;
+  width: 100%;
   height: 22px;
   display: flex;
   justify-content: space-between;
 }
 .d {
-  width: 408px;
+  width: 100%;
   height: 22px;
   display: flex;
   justify-content: space-between;
@@ -249,7 +250,7 @@ label {
   padding: 10px 40px 0 0;
 }
 .resumo button {
-  width: 408px;
+  width: 100%;
   height: 50px;
   color: #fff;
   background-color: #f6aa1c;
